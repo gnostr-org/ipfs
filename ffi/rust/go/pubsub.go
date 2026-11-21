@@ -25,7 +25,7 @@ import (
 
 var (
 	pubsubSubsMu  sync.RWMutex
-	pubsubSubs    = make(map[uint64]iface.PubSubSubscription)
+	pubsubSubs           = make(map[uint64]iface.PubSubSubscription)
 	pubsubSubNext uint64 = 1
 )
 
