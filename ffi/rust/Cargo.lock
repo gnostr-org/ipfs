@@ -539,7 +539,7 @@ dependencies = [
 
 [[package]]
 name = "kubo-ffi"
-version = "0.3.0"
+version = "975835.1839.124842"
 dependencies = [
  "crossterm",
  "ratatui",
